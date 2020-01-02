@@ -1,0 +1,46 @@
+<html dir="ltr">
+  <head>
+    <title></title>
+
+  <script type="text/javascript">
+    var started=true;   
+
+    function begin()
+     
+      clip.stop();
+    }
+
+    function stop()
+    {
+      clip.stop();
+    }
+
+    function pause()
+    {
+        clip.pause();
+        stop_btn.src="video_control/start_sign.png";
+        started=false;
+    }
+
+    function end()
+    {
+      clip.end();
+    }
+  </script>
+
+  </head>
+
+  <body>
+    <center>
+      <embed id="clip" src="avri_gilad2.avi">
+      </embed>
+      <br>
+      <form>
+        <input type="image" src="video_control/begin_sign.png" width=30 id="begin_btn" onmouseover="src='video_control/begin_sign2.png'" onmouseout="src='video_control/begin_sign.png'" onclick="begin()">
+        <input type="image" src="video_control/pause_sign.png" width=30 id="pause_btn"  onclick="pause()">
+        <input type="image" src="video_control/stop_sign.png" width=30 id="stop_btn" onmouseover="src='video_control/stop_sign2.png'" onmouseout="src='video_control/stop_sign.png'" onclick="stop()">
+        <input type="image" src="video_control/end_sign.png" width=30 id="end_btn" onmouseover="src='video_control/end_sign2.png'" onmouseout="src='video_control/end_sign.png'" onclick="end()">
+      </form>
+    </center>
+  </body>
+</html>

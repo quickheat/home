@@ -1,0 +1,87 @@
+<html dir="rtl">
+ <head>
+   <title></title>
+
+ <script type="text/javascript">
+   function mouseOver(font0, td0){
+     obj=document.getElementById(font0);
+     obj2=document.getElementById(td0);
+     obj.style.color="white";
+     obj2.bgColor="blue";
+   }‎
+
+    function mouseOut(font0, td0){
+     obj=document.getElementById(font0); 
+     obj2=document.getElementById(td0); 
+     obj.style.color="blue"; 
+     obj2.bgColor="lightgray";
+   }
+ </script>
+
+ </head>
+ <body>
+   <table>  
+     <tr> 
+       <td align="center" bgcolor="lightgray" id="td1" onmouseover="mouseOver('font1','td1');" onmouseout="mouseOut('font1','td1');">
+         <a href="homepage.html" target="pageFrame"> 
+           <font face="arial" size="4" color="blue" id="font1">    
+             עמוד הבית
+           </font>   
+         </a>  
+       </td>
+     </tr>
+     
+
+     <tr> 
+       <td align="center" bgcolor="lightgray" id="td2" onmouseover="mouseOver('font2','td2');" onmouseout="mouseOut('font2','td2');">
+         <a href="whous.html" target="pageFrame"> 
+           <font face="arial" size="4" color="blue" id="font2">    
+             מי אנחנו
+           </font>   
+         </a>  
+       </td>
+     </tr>
+
+     <tr> 
+       <td align="center" bgcolor="lightgray" id="td3" onmouseover="mouseOver('font3','td3');" onmouseout="mouseOut('font3','td3');">
+         <a href="inventor.html" target="pageFrame"> 
+           <font face="arial" size="4" color="blue" id="font3">    
+             ממציא המערכת
+           </font>   
+         </a>  
+       </td>
+     </tr>
+ 
+     <tr> 
+       <td align="center" bgcolor="lightgray" id="td4" onmouseover="mouseOver('font4','td4');" onmouseout="mouseOut('font4','td4');">
+         <a href="newage.html" target="pageFrame"> 
+           <font face="arial" size="4" color="blue" id="font4">    
+             העידן החדש
+           </font>   
+         </a>  
+       </td>
+     </tr>
+   
+     <tr> 
+       <td align="center" bgcolor="lightgray" id="td5" onmouseover="mouseOver('font5','td5');" onmouseout="mouseOut('font5','td5');">
+         <a href="water.html" target="pageFrame"> 
+           <font face="arial" size="4" color="blue" id="font5">    
+             משק המים בישראל
+           </font>   
+         </a>  
+       </td>
+     </tr>
+
+     <tr> 
+       <td align="center" bgcolor="lightgray" id="td6" onmouseover="mouseOver('font6','td6');" onmouseout="mouseOut('font6','td6');">
+         <a href="contact.html" target="pageFrame"> 
+           <font face="arial" size="4" color="blue" id="font6">    
+             צור קשר
+           </font>   
+         </a>  
+       </td>
+     </tr>
+
+  </table>
+ </body>
+</html>
